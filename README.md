@@ -9,3 +9,4 @@ I wanted to translate my google doc resume into markdown because I wanted versio
 With the actual files I can actually keep all the files clean on my pc without storing big pdf files. 
 
 All these reasons are nice upsides, but in reality I just thought it would be fun.
+
