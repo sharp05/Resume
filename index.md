@@ -1,79 +1,84 @@
 <link rel="stylesheet" href="styles.css">
 
-# Isaic Cruse  
+# Aron Camacho  
 <p style="text-align: center;">
     <span id="location"></span> | P: <span id="phone"></span> | 
-    <a href="mailto:isaiccruse28@gmail.com">isaiccruse28@gmail.com</a> | 
-    <a href="https://github.com/Ahkylez">https://github.com/Ahkylez</a> | 
-    <a href="http://www.linkedin.com/in/isaic-cruse">http://www.linkedin.com/in/isaic-cruse</a>
+    <a href="mailto:acamacho37@ucmerced.edu">acamacho37@ucmerced.edu</a> | 
+    <a href="https://linkedin.com/in/AronCamacho">linkedin.com/in/AronCamacho</a>
 </p>
 
 
 <script src="config.js"></script>
 <script>
     if (typeof config !== 'undefined') {
-        document.getElementById('location').innerText = config.LOCATION || "Remote / California";
+        document.getElementById('location').innerText = config.LOCATION || "Merced, CA";
         document.getElementById('phone').innerText = config.PHONE || "[Hidden]";
     } else {
-        document.getElementById('location').innerText = "California";
+        document.getElementById('location').innerText = "Merced, CA";
         document.getElementById('phone').innerText = "[upon request]";
     }
 </script>
 ---
 
-* Applied Mathematics (CS Emphasis) undergraduate with research interest in quantitative finance, stochastic programming, and optimization.   
-* First-author on a conference-submitted paper integrating TC-VAE with Vine Copula for stochastic portfolio optimization.   
-* Selected as a UROC Research Scholar (5% acceptance rate) using Lean4 to formalize proofs under Prof. Juan Meza. 
+* Computer Science & Engineering undergraduate with hands-on experience across robotics, full-stack development, and hardware integration.
+* Undergraduate researcher at YUCCA Lab, designing the hardware architecture and ROS2/LiDAR pipeline for an autonomous apple-picking robot.
+* Full-stack developer who built PhishGuard, a phishing-simulation platform with real-time campaign analytics, at HackMerced XI.
 
 ## **EDUCATION**
 
 ---
 
-<p class="item-header"><strong>University of California, Merced | B.S. in Applied Mathematics (CS Emphasis) | GPA: 3.7 </strong> <span>Expected May 2027</span></p>
+<p class="item-header"><strong>University of California, Merced | B.S. in Computer Science & Engineering</strong> <span>Aug. 2023 – May 2027</span></p>
 
-**Honors & Awards:** Wishek Family Endowed Scholarship (2026–2027), Deans Honor List
+**Relevant Coursework:** Algorithm Design & Analysis, Computer Organization & Assembly
 
-**Relevant Coursework:** Mathematical Modeling, Probability & Statistics, Linear Algebra & Differential Equations, Numerical Analysis, Data Structures, Advanced Programming, Algorithm Design & Analysis, Complex Variables, Linear Analysis 
+<p class="item-header"><strong>Lathrop High School | High School Diploma</strong> <span>May 2023</span></p>
 
-## **RESEARCH EXPERIENCE**
+**Awards:** Seal of Biliteracy in Spanish
 
----
+**Involvements:** Captain of Cross Country (WAC First Place); Member of Hispanic Youth Leadership Club and Key Club International
 
-<p class="item-header"><strong>Undergraduate Research – Stochastic Programming & Generative Modeling</strong> <span>Merced, CA</span></p>
-<p class="item-header">Mentor: Prof. Roummel F. Marcia<span>Oct 2025 – Present</span></p>
-
-* **Conference Paper \- submitted:** Authored "Hybrid Time-Causal Variational Autoencoders with Vine Copula for Scenario Generation in Portfolio Optimization," recently submitted to multiple conferences. The hybrid model achieved a 12.75% total return vs. 10.20% for the ARMA-GARCH Vine Copula baseline over a 52-week out-of-sample backtest.  
-* **C++ / Python Optimizer:** Engineered a two-stage stochastic CVaR-minimizing portfolio optimizer in C++ (using Google OR-Tools MPSolver), with Python for data wrangling, scenario generation, and backtesting.  
-* **Scenario Generation (TC-VAE):** Implemented a Time-Causal VAE and applied posterior-bootstrapped sampling with a state-conditioned Vine Copula to correct correlation collapse, improving realized 95% CVaR to 5.47% (vs 6.07% baseline).   
-* **Risk-Adjusted Performance:** Delivered 0.739 Sharpe and 1.250 Sortino (vs. 0.593/0.839 baseline) and lowered annualized volatility to 18.79% on average.   
-* **Backtesting Infrastructure:** Built a dynamic 52-week rolling-window backtesting framework with weekly rebalancing and variable transaction costs, simulating realistic portfolio management at $100,000 initial wealth.  
-* **Scientific Communication:** Presented technical research findings via a poster at the Undergraduate Research Opportunity Center (UROC).
-
-<p class="item-header"><strong>UROC Research Scholar</strong> <span>Merced, CA</span></p>
-<p class="item-header">Mentor: Prof. Juan Meza<span>June 2026 – Present</span></p>
-
-* **Proofs for Finance:** Utilizing Lean 4 to explore the formal verification of non-linear financial models and optimization algorithms.  
-* **Algorithmic Correctness:** Researching methods to prove the mathematical soundness of automated strategies, targeting high-reliability applications in derivatives and options pricing.
-
-## **PROJECTS**
+## **SKILLS & CERTIFICATIONS**
 
 ---
 
-<p class="item-header"><strong>Quantitative Risk & MPT Engine | <i>Python, streamlit, Pandas, Numpy</i></strong><span>2025</span></p>
+**Coding Languages:** C++, C, Python, JavaScript, TypeScript
 
-* Analytics Dashboard: Developed a Streamlit app for Modern Portfolio Theory (MPT) asset allocation.   
-* Risk Attribution: Engineered modular libraries for automated multi-asset covariance estimation and downside risk metrics.
+**Software:** React, Node.js, Express, SQLite, Unreal Engine, ROS2, RViz, MIPS Assembly
 
-## **WORK EXPERIENCE**
+**Equipment/Tools:** Jetson Nano, LiDAR, RGBD Cameras, Motor Controllers, Hardware Architecture
 
---- 
-<p class="item-header"><strong>UNIVERSITY OF CALIFORNIA, Merced</strong> <span>Merced, CA</span></p>
-<p class="item-header">Learning Assistant - Calculus<span>Aug 2024 – Present</span></p>
+**Foreign Languages:** Fluent in English and Spanish (Bilingual)
 
-* Mentored 1,000+ students by translating abstract mathematical concepts into actionable problem-solving techniques during collaborative review sessions. 
-
-## **ADDITIONAL**
+## **RELEVANT EXPERIENCE**
 
 ---
 
-**Skills:** Python (PyTorch, scikit-learn, pandas, NumPy, Streamlit, Jupyter, Matplotlib, SciPy),  LaTeX, git, CVXPY, HIGHS/LP solver, SQL, Google OR-Tools MP Solver, Vim
+<p class="item-header"><strong>Camacho Firm LC</strong> <span>Los Angeles, CA</span></p>
+<p class="item-header">IT Intern<span>Summer 2025</span></p>
+
+* Led a firm-wide technology integration project to add bilingual (English/Spanish) client intake capability: designed, built, tested, and deployed fillable bilingual PDF intake forms and integrated them into the firm's intake/workflow system to streamline data capture and improve client accessibility.
+* Coordinated pilot testing and rollout with staff, performed troubleshooting and iterative improvements based on user feedback.
+* Monitored and tracked ongoing legal rulings and policy updates; maintained an up-to-date research tracker and revised materials to ensure attorneys had current information.
+
+## **PROJECT & RESEARCH EXPERIENCE**
+
+---
+
+<p class="item-header"><strong>YUCCA Lab (Autonomous Agricultural Robot)</strong> <span>Merced, CA</span></p>
+<p class="item-header">Undergraduate Researcher<span>Nov. 2025 – Present</span></p>
+
+* Designed the hardware architecture and integration diagram for an autonomous apple-picking agricultural robot, mapping out power and data flow for a Jetson Nano, RGBD cameras, LiDAR, and motor controllers.
+* Configured and connected a LiDAR scanner utilizing ROS2, currently optimizing and troubleshooting the 3D pointcloud visualization system within RViz.
+* Conducted literature reviews on computer vision techniques and RGBD camera applications to inform the robot's sensory and autonomous navigation capabilities.
+
+<p class="item-header"><strong>PhishGuard (HackMerced XI)</strong> <span>Merced, CA</span></p>
+<p class="item-header">Full-Stack Developer<span>Mar. 2026</span></p>
+
+* Developed a full-stack phishing simulation platform using Node.js, Express, and SQLite to allow IT teams to launch mock campaigns and track real-time click-through data.
+* Built a responsive security dashboard using React and Vite, implementing modular architecture for seamless campaign creation and user vulnerability tracking.
+
+<p class="item-header"><strong>Unreal Engine Game Development</strong> <span>Lathrop, CA</span></p>
+<p class="item-header">Independent Developer<span>2019 – 2023</span></p>
+
+* Designed and programmed two interactive games using Unreal Engine, developing skills in game logic, 3D environments, and software troubleshooting.

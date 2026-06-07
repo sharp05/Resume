@@ -1,6 +1,6 @@
 # View the Resume
 If you want to view the resume, it's on github pages at the link:
-https://ahkylez.github.io/Resume/
+https://sharp05.github.io/Resume/
 
 # About this Project
 
